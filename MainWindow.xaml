@@ -1,0 +1,14 @@
+﻿<Window x:Class="Lab5B.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab5B"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TxtBxNumer" HorizontalAlignment="Left" VerticalAlignment="Top" Width="272" Margin="10,10,0,0" Height="58" Text="Podaj numer albumu"/>
+        <Button x:Name="BtnSzukaj" Content="Szukaj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="115" Margin="31,133,0,0" Height="57" Click="BtnSzukaj_Click"/>
+        <Button x:Name="BtnRegal" Content="Button" HorizontalAlignment="Left" Height="86" Margin="333,148,0,0" VerticalAlignment="Top" Width="155" Click="BtnRegal_Click"/>
+    </Grid>
+</Window>
